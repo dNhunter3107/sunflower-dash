@@ -25,4 +25,4 @@ jobs:
           yes | flutter doctor --android-licenses
           flutter doctor -v
       - name: run `flutter build linux`
-        run: flutter build linux
+        run: flutter build linux --verbose
